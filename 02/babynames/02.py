@@ -6,7 +6,6 @@ str_len = 0
 longest_name = "initial"
 largedataset = ssadata.boys.keys() + ssadata.girls.keys()
 
-
 for name in largedataset:
     if len(name) >= str_len:
         str_len = len(name)
